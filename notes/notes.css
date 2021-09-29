@@ -1,0 +1,196 @@
+/* this is something to do with parent child relations */
+.elephant p {
+    color: red;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 23px;
+}
+
+.greeting { 
+    font-family: 'Inconsolata', monospace;
+}
+
+.greeting {
+    font-family: 'Inconsolata', monospace;
+}
+
+.item-wrapper > .item-description {
+    font-size: 30px;
+}
+
+.link-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parent > .first-child-element > span {
+    width: 100px;
+    background-color: green;
+    transition: 0.7s;
+}
+
+.parent > .first-child-element > span:hover {
+    color: white;
+}
+
+.sidebar-wrapper {
+    text-align: right;
+}
+.sidebar-wrapper > .subtext {
+    color:#0597e6;
+    font-size: 14px;
+}
+.sidebar-wrapper > .header {
+    font-size: 18px;
+}
+
+/*These are the default styles for the description. Leave these styles*/
+.description {
+    color: lightgrey;
+    font-size: 12px;
+}
+
+/*Write your code here to overwrite the above styles*/
+.description {
+    font-size: 14px;
+    color: lightblue;
+}
+
+#product-header {
+    background-image:url(../../assets/images/puppies.png);
+    padding: 430px;
+    height: 375px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product-info > .main-header {
+    padding: 7px 32px;
+    background-color: #fa42c3;
+    width: 125px;
+}
+
+.product-info > .sub-header {
+    padding: 4px 15px;
+    background-color: #7c75c7;
+    color: white;
+}
+
+.parent > .social-link-ideas > span {
+    color: green;
+    background-color: #42cffa;
+    letter-spacing: 3px;
+}
+
+.card-container {
+    width: 1100px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: white;
+    
+    /*add your code here*/
+}
+.card-container {
+    justify-content: space-between;
+}
+
+.box-header {
+    box-shadow: 0px 0px 33px -4px rgba(#8f8f8f);
+}
+
+#some-stuff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cute-picture > img {
+    filter: brightness(30%);
+}
+
+.brand-info a {
+    text-transform: uppercase;
+}
+
+.brand-info > .brand-name {
+    font-size: 17px;
+    letter-spacing: 4px;
+}
+
+.my-img-box {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transform: skewY(-3deg);
+    transform-origin: top right;
+}
+
+.container {
+    margin: 10px 23px 34px 0px;
+    border: 2px solid #cea135;
+}
+
+.about-page-spacer {
+    width: 800px;
+    height: 45px;
+}
+
+.bagel {
+    float: left;
+    color: red;
+}
+
+#info-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#info-container > .info-card {
+    border-left: 10px solid black;
+}
+
+
+input {
+    display: block;
+    padding: 10px 15px;
+}
+
+.container input {
+    outline: none;
+    border: 2px solid blue;
+}
+
+input {
+    color: pink;
+    font-size: 15px;
+}
+
+span {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card {
+    letter-spacing: 2px;
+    color: grey;
+}
+
+.theDiv {
+    width: 125px;
+    opacity: 0.5;
+}
+
+.nav-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 300px;
+}

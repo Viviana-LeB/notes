@@ -1,0 +1,7 @@
+git init - initulize git
+git add . - to select all the archives
+git status - to view the files you are saving
+{
+git commit - to save the files to git
+-m "name of saving" - to name the saving
+}

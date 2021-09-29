@@ -1,0 +1,15 @@
+ls 
+opens directories
+
+ls -a
+shows all hidden files
+
+cd ~/file directory/
+opens the next file directory between the /   /
+
+clear will clear the screen
+
+mkdir 
+make directory
+place the name of the file you are creating next to 'mkdir place-here'
+
