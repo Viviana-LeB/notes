@@ -1,0 +1,20 @@
+
+Carlos Leany  1:51 PM
+'ls' is to open directories
+'dir -Force' shows hidden files
+'cd' is to run command
+'cd..' is to go back a file directory
+'clear' is to clear
+'cd ~/file directories' opens said directory
+'mkdir (name)' make directory
+'$null > (file name)' makes file
+'mv .\(file name) ./(new name of file)' to rename file
+'mv .\(file name) .\folder name\new name of file' to move and rename a file. ommit 'new name of file' to just move
+'rm (name)' is to remove (you have to confirm if the folder has content)
+'rm *' WILL ERASE THE WHOLE DIRECTORY BE CAUTIUS
+'code (file name)' to open the file in vs code
+'cat (file name)' to display content in a file
+'echo "(content)" > ./(file directory)' will replace any content within
+'echo "(content)" >> ./(file directory)' will add the content on a new line
+'cp ./(file name) (new file name)' copies ypur file
+'cp .\(file name) (file directory(you can press tab to auto complete))(file name)' to copy to a new location

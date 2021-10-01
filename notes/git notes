@@ -5,3 +5,19 @@ git status - to view the files you are saving
 git commit - to save the files to git
 -m "name of saving" - to name the saving
 }
+
+
+git branch - to see the branch you are in
+
+git checkout -b 'new name' - to create and open a new branch
+git checkout "name of branch" - to open a branch 
+git merge "name of branch you want to merge with the open branch"
+git push -u origin 'name of the branch' - to merge the branch
+git branch -d "name of branch" - deletes branch
+git push origin --delete name-of-branch - how you delete a remote branch
+git diff 2*file-name-optional* shows the changes
+git checkout . -restores files to previous form / removes changes
+rm name-of-file - removes file
+
+
+
